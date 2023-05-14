@@ -1,3 +1,3 @@
 # marketing
 
-the website is hosted at https://plum-relieved-quail.cyclic.app
+the website is hosted at https://confused-teal-codfish.cyclic.app/
