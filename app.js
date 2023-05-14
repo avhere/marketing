@@ -36,7 +36,7 @@ app.post("/",function(req,res){
 
     newQuery.save();
 
-    res.redirect("/");
+    res.sendFile(__dirname+'/index.html');
 
 });
 
