@@ -1,0 +1,77 @@
+
+
+.mynavbar a:active, a:focus {
+  outline: 0 !important;
+  border: none !important;
+  
+}
+
+.mynavbar a:hover{
+  color: rgb(61, 91, 168);
+  background-color: white;
+}
+
+.navbutton1{
+  height: 130px;
+  width: 200px;
+  background-color: rgb(236, 229, 92);
+  float: right;
+  text-align: center;
+}
+
+.navbutton1 a{
+  color: rgb(68, 68, 68);
+  font-weight: 800;
+  font-size: normal;
+  line-height: 20px;
+}
+
+
+.navbutton2{
+  height: 130px;
+  width: 200px;
+  background-color: rgb(24, 37, 70);  
+  float: right;
+  text-align: center;
+}
+
+.navbutton2 a{
+  color: white;
+  font-weight: 800;
+  font-size: normal;
+}
+
+.navbutton1 div{
+  margin-top: 20%;
+}
+
+.navbutton2 div{
+  margin-top: 25%;
+}
+
+.mynavbar{
+  display: inline-flex;
+  place-items: center;
+  height: 130px;
+
+}
+
+.mainlink{
+  margin: 0px 15px;
+}
+
+.navimg{
+  margin-right: 4%;
+  margin-left: 40px;
+}
+
+@media (min-width:1450px) {
+  .navimg{
+    margin-right: 20%;
+    margin-left: 40px;
+  }
+}
+
+.dropdown-menu{
+  place-self: center;
+}
